@@ -51,12 +51,16 @@
 // 繰り返し処理ここまで
 
 // 関数
-let alertString;
-alertString = addString("WebCamp");
+// let alertString;
+// alertString = addString("WebCamp");
 
-alert(alertString);
+// alert(alertString);
 
-function addString(strA){
-  let addStr = "Hello " + strA;
-  return addStr;
-}
+// function addString(strA){
+//   let addStr = "Hello " + strA;
+//   return addStr;
+// }
+
+// 複数の関数
+let promptStr = prompt('何か好きな文字を入力してください。');
+alert(promptStr);
