@@ -50,3 +50,13 @@
 // alert('1から10まで足し算した結果は' + num + 'です')
 // 繰り返し処理ここまで
 
+// 関数
+let alertString;
+alertString = addString("WebCamp");
+
+alert(alertString);
+
+function addString(strA){
+  let addStr = "Hello " + strA;
+  return addStr;
+}
